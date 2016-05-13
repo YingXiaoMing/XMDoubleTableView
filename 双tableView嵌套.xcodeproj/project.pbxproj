@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FC4CFFDE1CBCF34E003094EC /* XMButton.m in Sources */ = {isa = PBXBuildFile; fileRef = FC4CFFDD1CBCF34E003094EC /* XMButton.m */; };
 		FC569BE81CB9082F00ABD72E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FC569BE71CB9082F00ABD72E /* main.m */; };
 		FC569BEB1CB9082F00ABD72E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FC569BEA1CB9082F00ABD72E /* AppDelegate.m */; };
 		FC569BEE1CB9082F00ABD72E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FC569BED1CB9082F00ABD72E /* ViewController.m */; };
@@ -35,6 +36,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FC4CFFDC1CBCF34E003094EC /* XMButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XMButton.h; sourceTree = "<group>"; };
+		FC4CFFDD1CBCF34E003094EC /* XMButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XMButton.m; sourceTree = "<group>"; };
 		FC569BE31CB9082F00ABD72E /* 双tableView嵌套.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "双tableView嵌套.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		FC569BE71CB9082F00ABD72E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FC569BE91CB9082F00ABD72E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -110,6 +113,8 @@
 				FC569BF41CB9082F00ABD72E /* LaunchScreen.storyboard */,
 				FC569BF71CB9082F00ABD72E /* Info.plist */,
 				FC569BE61CB9082F00ABD72E /* Supporting Files */,
+				FC4CFFDC1CBCF34E003094EC /* XMButton.h */,
+				FC4CFFDD1CBCF34E003094EC /* XMButton.m */,
 			);
 			path = "双tableView嵌套";
 			sourceTree = "<group>";
@@ -272,6 +277,7 @@
 			files = (
 				FC569BEE1CB9082F00ABD72E /* ViewController.m in Sources */,
 				FC569BEB1CB9082F00ABD72E /* AppDelegate.m in Sources */,
+				FC4CFFDE1CBCF34E003094EC /* XMButton.m in Sources */,
 				FC569BE81CB9082F00ABD72E /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -496,6 +502,7 @@
 				FC569C121CB9082F00ABD72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC569C131CB9082F00ABD72E /* Build configuration list for PBXNativeTarget "双tableView嵌套Tests" */ = {
 			isa = XCConfigurationList;
@@ -504,6 +511,7 @@
 				FC569C151CB9082F00ABD72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FC569C161CB9082F00ABD72E /* Build configuration list for PBXNativeTarget "双tableView嵌套UITests" */ = {
 			isa = XCConfigurationList;
@@ -512,6 +520,7 @@
 				FC569C181CB9082F00ABD72E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
